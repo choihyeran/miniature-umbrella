@@ -1,4 +1,4 @@
-package edu.handong.csee.java.hw2.converters;
+package edu.handong.csee.java.lab08.hw2;
 
 /**
  * this is interface aovut convertible that function about set the value and get the converted value finally convert
