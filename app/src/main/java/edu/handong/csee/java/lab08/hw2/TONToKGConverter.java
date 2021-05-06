@@ -1,4 +1,4 @@
-package edu.handong.csee.java.hw2.converters;
+package edu.handong.csee.java.lab08.hw2;
 
 /**
  * this is converter that changes ton to kilogram
