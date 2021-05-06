@@ -1,21 +1,21 @@
-package edu.handong.csee.java.hw2.converters;
+package edu.handong.csee.java.lab08.hw2;
 
 /**
- * this is converter that changes ton to gram
+ * this is converter that changes mile to kilometer
  */
 
-public class TONToGConverter implements Convertible {
+public class MILEToKMConverter implements Convertible {
 
-    private double ton;
+    private double mile;
     private double result;
 
     /**
-     * setFromValue is to set the value to ton
+     * setFromValue is to set the value to mile
      */
     @Override
     public void setFromValue(double fromValue) {
-        
-        ton = fromValue;
+
+        mile = fromValue;
     }
 
     /**
@@ -28,12 +28,12 @@ public class TONToGConverter implements Convertible {
     }
 
     /**
-     * convert the ton to gram
+     * convert is to convert the mile to kilometer
      */
     @Override
     public void convert() {
-
-        result = ton*1000000;
+        
+        result = mile/1.6;
     }
     
 }
